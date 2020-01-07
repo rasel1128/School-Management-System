@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1030.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="schoolmanagement.ClubController">
+   <children>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="194.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tree-creative.png" />
+         </image>
+      </ImageView>
+      <Text fill="#079405" layoutX="380.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#f8030c" layoutX="261.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+      <Label layoutX="390.0" layoutY="194.0" prefHeight="30.0" prefWidth="187.0" text="Univarsity Clubs" textFill="#1121d6" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="296.0" layoutY="246.0" mnemonicParsing="false" onAction="#computer_club" prefHeight="46.0" prefWidth="321.0" style="-fx-background-color: #08207f;" text="Computer Club" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="297.0" layoutY="305.0" mnemonicParsing="false" onAction="#cultural_club" prefHeight="46.0" prefWidth="321.0" style="-fx-background-color: #08207f;" text="Caltural Club" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="299.0" layoutY="362.0" mnemonicParsing="false" onAction="#sports_club" prefHeight="46.0" prefWidth="321.0" style="-fx-background-color: #08207f;" text="Sports Club" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="299.0" layoutY="419.0" mnemonicParsing="false" onAction="#debate_club" prefHeight="46.0" prefWidth="321.0" style="-fx-background-color: #08207f;" text="Debate Club" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="299.0" layoutY="477.0" mnemonicParsing="false" onAction="#filmsociety" prefHeight="46.0" prefWidth="321.0" style="-fx-background-color: #08207f;" text="Film Society" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="300.0" layoutY="534.0" mnemonicParsing="false" onAction="#language_club" prefHeight="46.0" prefWidth="321.0" style="-fx-background-color: #08207f;" text="Language Club" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="301.0" layoutY="590.0" mnemonicParsing="false" onAction="#back" prefHeight="46.0" prefWidth="321.0" style="-fx-background-color: #08207f;" text="Back" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

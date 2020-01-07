@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1030.0" stylesheets="@Bstyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagement.MainMenuController">
+   <children>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="174.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tree-creative.png" />
+         </image>
+      </ImageView>
+      <Text fill="#079405" layoutX="360.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#f8030c" layoutX="241.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+      <Label layoutX="716.0" layoutY="183.0" text="Follow Us:" textFill="#eeeaea">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="47.0" layoutY="179.0" mnemonicParsing="false" onAction="#home" prefHeight="39.0" prefWidth="95.0" text="Logout">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="153.0" layoutY="179.0" mnemonicParsing="false" onAction="#academic" prefHeight="39.0" prefWidth="200.0" text="Academic Calender">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="460.0" layoutY="178.0" mnemonicParsing="false" onAction="#tutionfees" prefHeight="39.0" prefWidth="135.0" text="Tution Fees">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="607.0" layoutY="178.0" mnemonicParsing="false" onAction="#library" prefHeight="39.0" prefWidth="95.0" text="Liabary">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button alignment="BASELINE_RIGHT" layoutX="816.0" layoutY="176.0" mnemonicParsing="false" onAction="#facebook" prefHeight="35.0" prefWidth="50.0" text="FB">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button alignment="BASELINE_RIGHT" layoutX="876.0" layoutY="175.0" mnemonicParsing="false" onAction="#youtube" prefHeight="35.0" prefWidth="50.0" text="YT" />
+      <ImageView fitHeight="25.0" fitWidth="50.0" layoutX="818.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/FB2.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="BASELINE_RIGHT" layoutX="934.0" layoutY="175.0" mnemonicParsing="false" onAction="#instagram" prefHeight="35.0" prefWidth="50.0" text="In" />
+      <ImageView fitHeight="25.0" fitWidth="50.0" layoutX="936.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/insta.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="50.0" layoutX="878.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Youtube.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="BOTTOM_CENTER" layoutX="873.0" layoutY="221.0" mnemonicParsing="false" onAction="#teacher" prefHeight="135.0" prefWidth="111.0" text="Teachers">
+         <font>
+            <Font name="Bell MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="874.0" layoutY="366.0" mnemonicParsing="false" onAction="#student" prefHeight="135.0" prefWidth="111.0" text="Students">
+         <font>
+            <Font name="Bell MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="876.0" layoutY="511.0" mnemonicParsing="false" onAction="#club" prefHeight="135.0" prefWidth="111.0" text="Clubs">
+         <font>
+            <Font name="Bell MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="110.0" fitWidth="109.0" layoutX="878.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Club.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="109.0" layoutX="874.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Capture.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="109.0" layoutX="875.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Stu.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="209.0" layoutX="224.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/DSCF6424.JPG" />
+         </image>
+      </ImageView>
+      <Text fill="#f8f4f4" layoutX="247.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chairman's Message">
+         <font>
+            <Font name="Bell MT Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="364.0" layoutY="179.0" mnemonicParsing="false" onAction="#result" text="Result">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Text fill="#f8f4f4" layoutX="224.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Truly great university is a" />
+      <Text fill="#f8f4f4" layoutX="371.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nucleus" />
+      <Text fill="#f8f4f4" layoutX="220.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="of artistic expression. It fosters creative" />
+      <Text fill="#f8f4f4" layoutX="221.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="critical thought And serves" />
+      <Text fill="#f8f4f4" layoutX="364.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="as a platform" />
+      <Text fill="#f8f4f4" layoutX="222.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="for civil discourse." />
+      <Text fill="#f8f4f4" layoutX="221.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Camus is a popular university" />
+      <Text fill="#f8f4f4" layoutX="221.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="among the city. And every student has" />
+      <Text fill="#f8f4f4" layoutX="220.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the dream to get admit into this vasity." />
+      <Text fill="#f8f4f4" layoutX="220.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I and also my teacher's are very serious" />
+      <Text fill="#f8f4f4" layoutX="220.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to produce good result, excellent  beh-" />
+      <Text fill="#f8f4f4" layoutX="221.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aviour for the students." />
+      <Text fill="#f8f4f4" layoutX="220.0" layoutY="597.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finally I said the students who wanted" />
+      <Text fill="#f8f4f4" layoutX="219.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to get admit, please apply now through" />
+      <Text fill="#f8f4f4" layoutX="219.0" layoutY="630.0" strokeType="OUTSIDE" strokeWidth="0.0" text="online." />
+      <Text fill="#f8f4f4" layoutX="441.0" layoutY="627.0" strokeType="OUTSIDE" strokeWidth="0.0" text="online." />
+      <Text fill="#f8f4f4" layoutX="441.0" layoutY="612.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to get admit, please apply now through" />
+      <Text fill="#f8f4f4" layoutX="442.0" layoutY="594.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finally I said the students who wanted" />
+      <Text fill="#f8f4f4" layoutX="443.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aviour for the students." />
+      <Text fill="#f8f4f4" layoutX="442.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to produce good result, excellent  beh-" />
+      <Text fill="#f8f4f4" layoutX="442.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I and also my teacher's are very serious" />
+      <Text fill="#f8f4f4" layoutX="442.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the dream to get admit into this vasity." />
+      <Text fill="#f8f4f4" layoutX="443.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="among the city. And every student has" />
+      <Text fill="#f8f4f4" layoutX="443.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Camus is a popular university" />
+      <Text fill="#f8f4f4" layoutX="444.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="for civil discourse." />
+      <Text fill="#f8f4f4" layoutX="586.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="as a state" />
+      <Text fill="#f8f4f4" layoutX="443.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="critical thought And serves" />
+      <Text fill="#f8f4f4" layoutX="442.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="of artistic expression. It fosters creative" />
+      <Text fill="#f8f4f4" layoutX="593.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nucleus" />
+      <Text fill="#f8f4f4" layoutX="446.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Truly great university is a" />
+      <Text fill="#f8f4f4" layoutX="448.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vice Chancellor's Message">
+         <font>
+            <Font name="Bell MT Bold" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="105.0" fitWidth="187.0" layoutX="475.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/vc.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="398.0" fitWidth="209.0" layoutX="655.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/admi.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="666.0" layoutY="566.0" mnemonicParsing="false" onAction="#apply_online" prefHeight="76.0" prefWidth="200.0" style="-fx-background-color: #19ddbc;" text="Apply Online" textAlignment="CENTER" textFill="#030a28" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="238.0" layoutX="710.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/name.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="46.0" layoutY="232.0" mnemonicParsing="false" onAction="#about" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="About Us" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="46.0" layoutY="283.0" mnemonicParsing="false" onAction="#games" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="Games" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="47.0" layoutY="334.0" mnemonicParsing="false" onAction="#faculty" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="Faculty" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="48.0" layoutY="384.0" mnemonicParsing="false" onAction="#admin" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="Admin" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="47.0" layoutY="435.0" mnemonicParsing="false" onAction="#admission" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="Admission" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="47.0" layoutY="485.0" mnemonicParsing="false" onAction="#apply" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="Apply" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="48.0" layoutY="535.0" mnemonicParsing="false" onAction="#contact" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="Contact " textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="48.0" layoutY="586.0" mnemonicParsing="false" onAction="#notice" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: #08207f;" text="Notice" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1030.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="schoolmanagement.TutionfeeController">
+   <children>
+      <Button layoutX="789.0" layoutY="621.0" mnemonicParsing="false" onAction="#back" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: #08207f;" text="Back" textAlignment="JUSTIFY" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="230.0" fitWidth="801.0" layoutX="68.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Tufee2.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="267.0" fitWidth="912.0" layoutX="73.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/TutionFee1.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="428.0" layoutY="152.0" prefHeight="30.0" prefWidth="129.0" text="Tution Fees" textFill="#1121d6" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="194.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tree-creative.png" />
+         </image>
+      </ImageView>
+      <Text fill="#079405" layoutX="380.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#f8030c" layoutX="261.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

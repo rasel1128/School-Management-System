@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1030.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="schoolmanagement.YoutubeController">
+   <children>
+      <Text fill="#f8030c" layoutX="271.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+      <Text fill="#079405" layoutX="390.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="204.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tree-creative.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="407.0" layoutY="189.0" text="Youtube Page" textFill="#1121d6" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="498.0" layoutY="634.0" mnemonicParsing="false" onAction="#back" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: #08207f;" text="Back" textAlignment="JUSTIFY" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

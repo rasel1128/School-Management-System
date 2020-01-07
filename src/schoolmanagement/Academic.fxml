@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1030.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="schoolmanagement.AcademicController">
+   <children>
+      <Button layoutX="729.0" layoutY="604.0" mnemonicParsing="false" onAction="#back" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: #08207f;" text="Back" textAlignment="JUSTIFY" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="474.0" fitWidth="591.0" layoutX="196.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Academic%20Calender.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="309.0" layoutY="152.0" prefHeight="30.0" prefWidth="394.0" text="Academic Calender Summer 2019" textFill="#1121d6" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="194.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tree-creative.png" />
+         </image>
+      </ImageView>
+      <Text fill="#079405" layoutX="380.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#f8030c" layoutX="261.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

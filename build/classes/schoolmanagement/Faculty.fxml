@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagement.FacultyController">
+   <children>
+      <WebView fx:id="website" layoutX="10.0" layoutY="11.0" prefHeight="619.0" prefWidth="1043.0" />
+      <Button layoutX="957.0" layoutY="638.0" mnemonicParsing="false" onAction="#back" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: #08207f;" text="Back" textAlignment="CENTER" textFill="#eeeff2" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="488.0" layoutY="624.0" mnemonicParsing="false" onAction="#back" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: #08207f;" text="Back" textAlignment="JUSTIFY" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="130.0" layoutY="566.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Textile Engineering Dept." textAlignment="JUSTIFY" textFill="#fdfdff" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="130.0" layoutY="509.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Pharmacy Dept." textAlignment="JUSTIFY" textFill="#f6f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="130.0" layoutY="450.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="English Dept." textAlignment="JUSTIFY" textFill="#fdfdff" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="128.0" layoutY="392.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Law &amp; Human Rights Dept." textAlignment="JUSTIFY" textFill="#f8f9fc" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="128.0" layoutY="332.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Business Administration Dept." textAlignment="JUSTIFY" textFill="#fafbfc" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="342.0" layoutY="201.0" text="Teacher's Informatiom" textFill="#1121d6" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="128.0" layoutY="274.0" mnemonicParsing="false" onAction="#cse" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Computer Science &amp; Engineering Dept." textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="194.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tree-creative.png" />
+         </image>
+      </ImageView>
+      <Text fill="#079405" layoutX="380.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#f8030c" layoutX="261.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1030.0">
+         <children>
+            <Text fill="#f8030c" layoutX="251.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+               <font>
+                  <Font name="Bell MT Bold" size="53.0" />
+               </font>
+            </Text>
+            <Text fill="#079405" layoutX="370.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+               <font>
+                  <Font name="Bell MT Bold" size="25.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="184.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/tree-creative.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="118.0" layoutY="264.0" mnemonicParsing="false" onAction="#cse" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Computer Science &amp; Engineering Dept." textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="356.0" layoutY="227.0" text="Faculty Informatiom" textFill="#1121d6" underline="true">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="118.0" layoutY="322.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Business Administration Dept." textAlignment="JUSTIFY" textFill="#fafbfc" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="118.0" layoutY="382.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Law &amp; Human Rights Dept." textAlignment="JUSTIFY" textFill="#f8f9fc" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="120.0" layoutY="440.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="English Dept." textAlignment="JUSTIFY" textFill="#fdfdff" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="120.0" layoutY="499.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Pharmacy Dept." textAlignment="JUSTIFY" textFill="#f6f6f8" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="120.0" layoutY="556.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #08207f;" text="Textile Engineering Dept." textAlignment="JUSTIFY" textFill="#fdfdff" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="478.0" layoutY="614.0" mnemonicParsing="false" onAction="#back" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: #08207f;" text="Back" textAlignment="JUSTIFY" textFill="#f5f6f8" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="show" layoutX="660.0" layoutY="305.0" prefHeight="249.0" prefWidth="315.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

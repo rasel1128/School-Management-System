@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1024.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagement.FXMLDocumentController">
+   <children>
+      <Text fill="#ffdfe1" layoutX="66.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative Campus">
+         <font>
+            <Font name="Bell MT Bold" size="53.0" />
+         </font>
+      </Text>
+      <Text fill="#ddeedd" layoutX="184.0" layoutY="609.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institute of Imaginations">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="141.0" fitWidth="135.0" layoutX="4.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tree-creative.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="pass" alignment="CENTER" layoutX="692.0" layoutY="621.0" prefHeight="25.0" prefWidth="193.0" promptText="Password" style="-fx-background-color: #baf0f2;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="user" alignment="CENTER" layoutX="399.0" layoutY="622.0" prefHeight="25.0" prefWidth="193.0" promptText="Username" style="-fx-background-color: #baf0f2;">
+         <effect>
+            <ColorAdjust brightness="0.05" />
+         </effect>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="295.0" layoutY="624.0" text="User Name" textFill="#d8eeee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="599.0" layoutY="622.0" text="Password" textFill="#e4f8f8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button defaultButton="true" layoutX="896.0" layoutY="619.0" mnemonicParsing="false" onAction="#singin" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #08207f;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
